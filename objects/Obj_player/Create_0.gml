@@ -6,3 +6,5 @@ walksp=4;
 
 
 // 플레이어 초기 위치 설정
+targetX = x;
+targetY = y;

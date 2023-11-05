@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_impenetrable_wall",
+    "path": "sprites/spr_impenetrable_wall/spr_impenetrable_wall.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

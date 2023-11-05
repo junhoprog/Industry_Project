@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_rod_curtain",
   "bbox_bottom": 148,
-  "bbox_left": 38,
+  "bbox_left": 41,
   "bbox_right": 106,
   "bbox_top": 37,
   "bboxMode": 0,
