@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_impenetrable_wall",
-    "path": "sprites/spr_impenetrable_wall/spr_impenetrable_wall.yy",
+    "name": "spr_wood_flooring",
+    "path": "sprites/spr_wood_flooring/spr_wood_flooring.yy",
   },
   "spriteMaskId": null,
   "visible": true,
