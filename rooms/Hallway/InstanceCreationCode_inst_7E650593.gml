@@ -1,3 +1,3 @@
-target_room = Classroom1;
+target_room = Counselingroom;
 targetX	= 1104;
 targetY = 560;

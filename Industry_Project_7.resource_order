@@ -1,0 +1,12 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"Counselingroom","order":2,"path":"rooms/Counselingroom/Counselingroom.yy",},
+    {"name":"spr_bookshelf2","order":2,"path":"sprites/spr_bookshelf2/spr_bookshelf2.yy",},
+    {"name":"spr_monitor_side_view","order":1,"path":"sprites/spr_monitor_side_view/spr_monitor_side_view.yy",},
+    {"name":"spr_counseling_desk","order":4,"path":"sprites/spr_counseling_desk/spr_counseling_desk.yy",},
+    {"name":"Classroom2","order":1,"path":"rooms/Classroom2/Classroom2.yy",},
+    {"name":"spr_bookshelf3","order":5,"path":"sprites/spr_bookshelf3/spr_bookshelf3.yy",},
+    {"name":"spr_office_desk","order":3,"path":"sprites/spr_office_desk/spr_office_desk.yy",},
+  ],
+}
