@@ -3,7 +3,7 @@
 
 
 draw_set_color(c_white)
-draw_set_font(timerfont)
+draw_set_font(dotFont)
 
 
 var _s_score =""

@@ -12,8 +12,8 @@
     "path": "folders/오브젝트.yy",
   },
   "parentObjectId": {
-    "name": "Obj_virtual_key_p",
-    "path": "objects/Obj_virtual_key_p/Obj_virtual_key_p.yy",
+    "name": "Obj_vkeys",
+    "path": "objects/Obj_vkeys/Obj_vkeys.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "left_arrow",
-    "path": "sprites/left_arrow/left_arrow.yy",
+    "name": "spr_arrow_left",
+    "path": "sprites/spr_arrow_left/spr_arrow_left.yy",
   },
   "spriteMaskId": null,
   "visible": false,

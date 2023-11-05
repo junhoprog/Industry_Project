@@ -1,0 +1,23 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"Obj_timer","order":6,"path":"objects/Obj_timer/Obj_timer.yy",},
+    {"name":"Counselingroom","order":2,"path":"rooms/Counselingroom/Counselingroom.yy",},
+    {"name":"Obj_up","order":3,"path":"objects/Obj_up/Obj_up.yy",},
+    {"name":"Obj_restart","order":8,"path":"objects/Obj_restart/Obj_restart.yy",},
+    {"name":"spr_bookshelf2","order":2,"path":"sprites/spr_bookshelf2/spr_bookshelf2.yy",},
+    {"name":"spr_monitor_side_view","order":1,"path":"sprites/spr_monitor_side_view/spr_monitor_side_view.yy",},
+    {"name":"spr_arrow_left","order":7,"path":"sprites/spr_arrow_left/spr_arrow_left.yy",},
+    {"name":"Obj_vkeys","order":4,"path":"objects/Obj_vkeys/Obj_vkeys.yy",},
+    {"name":"spr_arrow_up","order":6,"path":"sprites/spr_arrow_up/spr_arrow_up.yy",},
+    {"name":"Obj_health","order":5,"path":"objects/Obj_health/Obj_health.yy",},
+    {"name":"Obj_right","order":2,"path":"objects/Obj_right/Obj_right.yy",},
+    {"name":"spr_counseling_desk","order":4,"path":"sprites/spr_counseling_desk/spr_counseling_desk.yy",},
+    {"name":"Classroom2","order":1,"path":"rooms/Classroom2/Classroom2.yy",},
+    {"name":"spr_arrow_right","order":8,"path":"sprites/spr_arrow_right/spr_arrow_right.yy",},
+    {"name":"Obj_score","order":7,"path":"objects/Obj_score/Obj_score.yy",},
+    {"name":"spr_bookshelf3","order":5,"path":"sprites/spr_bookshelf3/spr_bookshelf3.yy",},
+    {"name":"spr_office_desk","order":3,"path":"sprites/spr_office_desk/spr_office_desk.yy",},
+    {"name":"Obj_left","order":1,"path":"objects/Obj_left/Obj_left.yy",},
+  ],
+}
