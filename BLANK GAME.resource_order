@@ -1,7 +1,0 @@
-{
-  "FolderOrderSettings": [],
-  "ResourceOrderSettings": [
-    {"name":"Counselingroom","order":2,"path":"rooms/Counselingroom/Counselingroom.yy",},
-    {"name":"Classroom2","order":1,"path":"rooms/Classroom2/Classroom2.yy",},
-  ],
-}
