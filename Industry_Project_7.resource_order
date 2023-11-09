@@ -1,0 +1,7 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_stairs_collision","order":1,"path":"sprites/spr_stairs_collision/spr_stairs_collision.yy",},
+    {"name":"Object5","order":1,"path":"objects/Object5/Object5.yy",},
+  ],
+}
