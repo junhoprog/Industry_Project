@@ -1,0 +1,52 @@
+{
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "TileSet_concrete_flooring",
+  "autoTileSets": [],
+  "macroPageTiles": {
+    "SerialiseHeight": 11,
+    "SerialiseWidth": 1,
+    "TileCompressedData": [
+      -11,
+      0,
+    ],
+    "TileDataFormat": 1,
+  },
+  "out_columns": 1,
+  "out_tilehborder": 0,
+  "out_tilevborder": 0,
+  "parent": {
+    "name": "타일 세트",
+    "path": "folders/타일 세트.yy",
+  },
+  "spriteId": {
+    "name": "spr_common_space_flooring",
+    "path": "sprites/spr_common_space_flooring/spr_common_space_flooring.yy",
+  },
+  "spriteNoExport": false,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "tile_count": 7,
+  "tileAnimation": {
+    "FrameData": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+    ],
+    "SerialiseFrameCount": 1,
+  },
+  "tileAnimationFrames": [],
+  "tileAnimationSpeed": 15.0,
+  "tileHeight": 32,
+  "tilehsep": 0,
+  "tilevsep": 0,
+  "tileWidth": 241,
+  "tilexoff": 0,
+  "tileyoff": 0,
+}
