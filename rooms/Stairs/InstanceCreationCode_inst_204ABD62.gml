@@ -1,4 +1,4 @@
 targetRoom = CommonSpace2;
-targetX = 70;
-targetY = 560;
+targetX = 150;
+targetY = 400;
 playerView = -1;

@@ -8,7 +8,7 @@ if (show_text) {
     } else {
         text_to_display = "Stand up";
     }
-	draw_set_color(c_black);
+   draw_set_color(c_black);
     draw_text(x , y- sprite_get_width(sprite_index) - 10, text_to_display);
     show_text_timer -= 1;
 
