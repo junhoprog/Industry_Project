@@ -48,7 +48,6 @@
     {"name":"spr_dummy_suk","order":19,"path":"sprites/spr_dummy_suk/spr_dummy_suk.yy",},
     {"name":"spr_iso_escpae_sign","order":15,"path":"sprites/spr_iso_escpae_sign/spr_iso_escpae_sign.yy",},
     {"name":"CommonSpace","order":3,"path":"rooms/CommonSpace/CommonSpace.yy",},
-    {"name":"Obj_smoke","order":7,"path":"objects/Obj_smoke/Obj_smoke.yy",},
     {"name":"Stairs","order":5,"path":"rooms/Stairs/Stairs.yy",},
     {"name":"Obj_exit","order":4,"path":"objects/Obj_exit/Obj_exit.yy",},
   ],

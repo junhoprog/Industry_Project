@@ -114,7 +114,6 @@
     {"id":{"name":"spr_iso_escpae_sign","path":"sprites/spr_iso_escpae_sign/spr_iso_escpae_sign.yy",},},
     {"id":{"name":"spr_plant3","path":"sprites/spr_plant3/spr_plant3.yy",},},
     {"id":{"name":"CommonSpace","path":"rooms/CommonSpace/CommonSpace.yy",},},
-    {"id":{"name":"Obj_smoke","path":"objects/Obj_smoke/Obj_smoke.yy",},},
     {"id":{"name":"Stairs","path":"rooms/Stairs/Stairs.yy",},},
     {"id":{"name":"Obj_exit","path":"objects/Obj_exit/Obj_exit.yy",},},
     {"id":{"name":"TileSet_concrete_wall","path":"tilesets/TileSet_concrete_wall/TileSet_concrete_wall.yy",},},
