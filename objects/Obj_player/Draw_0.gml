@@ -8,6 +8,7 @@ if (show_text) {
     } else {
         text_to_display = "Stand up";
     }
+<<<<<<< HEAD
 	draw_set_color(c_black);
     draw_text(x+40 , 390, text_to_display);
 
@@ -23,3 +24,14 @@ if (show_text) {
     }
 }
 
+=======
+   draw_set_color(c_black);
+    draw_text(x , y- sprite_get_width(sprite_index) - 10, text_to_display);
+    show_text_timer -= 1;
+
+    if (show_text_timer <= 0) {
+        // 텍스트를 표시할 시간이 지나면 텍스트 표시 플래그 비활성화
+        show_text = false;
+    }
+}
+>>>>>>> 76f9d2cbe8fabe7f613ca3b0af55b13e38c6416e

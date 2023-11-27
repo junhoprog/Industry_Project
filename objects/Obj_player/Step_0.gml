@@ -41,8 +41,27 @@ if(onWall){
 else{
     sprite_index = spr_dummy_jump;
 }
+<<<<<<< HEAD
 
 if (((x-40<mouse_x&&mouse_x<x+25)&&(y-70<mouse_y&&mouse_y<y))&&mouse_check_button_pressed(mb_left)) {
+=======
+/*
+if(place_meeting(x,y,obj_smoke))
+{
+   health-=1;
+   if(health<=0)
+   {
+      show_message("Game Over!!!")
+      room_restart();
+   }
+   
+}
+
+alarm[0]=collision_alarm;
+*/
+// Step 이벤트에 다음 코드 추가
+if (((x-40<mouse_x&&mouse_x<x+25)||(y-70<mouse_y&&mouse_y<y))&&mouse_check_button_pressed(mb_left)) {
+>>>>>>> 76f9d2cbe8fabe7f613ca3b0af55b13e38c6416e
     // 터치 영역과 충돌하고 마우스 왼쪽 버튼이 눌렸을 때
     touch_count += 1; // 터치 횟수 증가
    if(check_spr)
@@ -102,4 +121,5 @@ if(global.hasFireExtinguisher==1)//소화기 가진 상태면
 			meet_fire=false;
 		}
 }
+
 
