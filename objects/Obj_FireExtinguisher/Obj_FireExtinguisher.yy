@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_elevator",
+  "name": "Obj_FireExtinguisher",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_elevator",
-    "path": "sprites/spr_elevator/spr_elevator.yy",
+    "name": "spr_fire_extinguisher",
+    "path": "sprites/spr_fire_extinguisher/spr_fire_extinguisher.yy",
   },
   "spriteMaskId": null,
   "visible": true,
