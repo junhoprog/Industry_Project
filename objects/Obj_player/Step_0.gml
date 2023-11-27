@@ -70,6 +70,8 @@ if (((x-40<mouse_x&&mouse_x<x+25)&&(y-70<mouse_y&&mouse_y<y))&&mouse_check_butto
   
 }
 
+
+
 //예외 흐름: 플레이어가 지나갈 수 없는 벽에 닿을 경우
 if(place_meeting(x+hsp, y, Obj_flooring)){
     hsp = 0;
@@ -80,26 +82,21 @@ if( place_meeting(x, y+vsp, Obj_flooring)){
     vsp = 0;
 }
 y += vsp;
-
-if(global.hasFireExtinguisher==1)//소화기 가진 상태면
-{
 	//
 	if(distance_to_object(Obj_fire) <= 50){
 		meet_fire=true;
 		var fire_id = instance_nearest(x,y,Obj_fire);
-		if(meet_fire && mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, fire_id)){
+		if(global.hasFireExtinguisher==1&&meet_fire && mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, fire_id)){
 			instance_destroy(fire_id);
 		}
-		
 		if(meet_fire&&place_meeting(x,y,Obj_fire))
 		{
 			show_message("체력 감소");
 		}
-		
 	}
 
 	else{
 			meet_fire=false;
 		}
-}
+
 
