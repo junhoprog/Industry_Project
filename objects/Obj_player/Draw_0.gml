@@ -10,6 +10,7 @@ if (show_text) {
     }
 	draw_set_color(c_black);
     draw_text(x+40 , 390, text_to_display);
+	
 
 	show_text_timer -= 1;
 
