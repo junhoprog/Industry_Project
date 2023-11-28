@@ -5,9 +5,25 @@ var cam_x = camera_get_view_x(view_camera[0]);
 var cam_y = camera_get_view_y(view_camera[0]);
 draw_set_font(dotFont)
 
+if(place_meeting(x,y,Obj_player))
+{
+	triggered = 1
+	chk_col = 1
+}
+else{
+chk_col=0;
+triggered=0;
+}
+if(show_Draw_timer>0)
+	{
+		draw_sprite(spr_dialog,0,cam_x+190,cam_y+90);
+		draw_text(cam_x+230, cam_y+120, quizs[0])
+		show_Draw_timer--;
+	}
+	
 if (chk_col==1) {
-	draw_sprite(spr_dialog,0,cam_x+190,cam_y+90);
-	draw_text(cam_x+230, cam_y+120, quizs[0])
+	show_Draw_timer=room_speed*5;
+	
 }
 
 else {

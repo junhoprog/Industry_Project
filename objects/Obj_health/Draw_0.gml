@@ -5,5 +5,10 @@
 var cam_x = camera_get_view_x(view_camera[0])
 var cam_y = camera_get_view_y(view_camera[0])
 
-draw_sprite_part(spr_heart,0,0,0,210*(health/100),210,cam_x+1088,cam_y-60)
+draw_sprite_part(spr_heart,0,0,0,210*(global.health/100),210,cam_x+1088,cam_y-60)
 
+if(global.health==0)
+{
+	show_message("Game Over")
+	game_restart()
+}
