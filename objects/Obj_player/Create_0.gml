@@ -13,3 +13,8 @@ show_text_timer =room_speed*2;
 collision_alarm=room_speed;
 meet_fire=false;
 global.hasFireExtinguisher=0
+
+
+
+global.start_time = current_time;
+global.smoke_area_index = 0;

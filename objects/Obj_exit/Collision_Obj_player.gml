@@ -1,3 +1,5 @@
+Obj_particle_smoke.alarm[0] = 1;
+
 room_goto(targetRoom);
 other.x = targetX;
 other.y = targetY;
@@ -7,3 +9,4 @@ other.image_xscale *= playerView;
 
 //룸 전환시 카메라 좌표가 크게 움직여야 하는 경우
 Obj_camera.snapToPlayer = true;
+Obj_particle_smoke.alarm[1] = 1;

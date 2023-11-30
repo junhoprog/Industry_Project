@@ -108,3 +108,27 @@ y += vsp;
 		}
 
 
+
+// Obj_player의 Step 이벤트
+for (var i = 0; i < array_length(global.smoke_emitters); i++) {
+    // 연기 영역에 파티클이 burst 되었는지 확인
+    if (global.is_smoke_area[i]) {
+        // emitter region의 y좌표 범위를 가져옴
+        y_start = global.smoke_areaY[i][0];
+        y_end = global.smoke_areaY[i][1]; 
+
+        // 플레이어가 연기 영역에 있는지 확인하고 건강 수치 감소
+        if (Obj_player.y >= y_start && Obj_player.y <= y_end) {
+            global.health--;  // 플레이어가 연기 영역에 있을 경우 건강 수치 감소
+        }
+	
+    }
+}
+
+elapsed_time = (current_time - global.start_time) / 1000;  // 게임 시작부터 경과한 시간 계산 (초 단위)
+
+if (elapsed_time <= 60 * 4) {  // 게임 플레이 시간 동안. 테스트 용도로 1분으로 기입
+    global.smoke_area_index= floor(power(elapsed_time / (60 * 4), 2) * 12);  // x^2 함수에 따라 0부터 11까지 증가
+} else {
+    global.smoke_area_index = 11;  // 5분 후에는 smoke_index를 11로 유지
+}
