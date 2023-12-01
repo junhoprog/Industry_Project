@@ -11,3 +11,5 @@ if(meet_player && mouse_check_button_pressed(mb_left) && position_meeting(mouse_
     global.hasFireExtinguisher = 1;
     instance_destroy();
 }
+if(isOwned)
+{global.score+=10000; isOwned=false;}

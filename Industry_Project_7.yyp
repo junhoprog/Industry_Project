@@ -39,7 +39,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.8.0.98",
   },
   "resources": [
     {"id":{"name":"spr_smoke_3","path":"sprites/spr_smoke_3/spr_smoke_3.yy",},},
@@ -47,11 +47,9 @@
     {"id":{"name":"spr_concrete_wall_texture","path":"sprites/spr_concrete_wall_texture/spr_concrete_wall_texture.yy",},},
     {"id":{"name":"spr_toilet_door","path":"sprites/spr_toilet_door/spr_toilet_door.yy",},},
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},},
-    {"id":{"name":"spr_dummy_2","path":"sprites/spr_dummy_2/spr_dummy_2.yy",},},
     {"id":{"name":"Obj_vkeys","path":"objects/Obj_vkeys/Obj_vkeys.yy",},},
     {"id":{"name":"spr_dummy_sukrun","path":"sprites/spr_dummy_sukrun/spr_dummy_sukrun.yy",},},
     {"id":{"name":"spr_notice_board","path":"sprites/spr_notice_board/spr_notice_board.yy",},},
-    {"id":{"name":"spr_dummy_1","path":"sprites/spr_dummy_1/spr_dummy_1.yy",},},
     {"id":{"name":"spr_arrow_up","path":"sprites/spr_arrow_up/spr_arrow_up.yy",},},
     {"id":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},},
     {"id":{"name":"spr_impenetrable_wall","path":"sprites/spr_impenetrable_wall/spr_impenetrable_wall.yy",},},

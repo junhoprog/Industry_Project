@@ -7,5 +7,6 @@ triggered = 0
 chk_col = 0
 
 quizs = ["불이나면 옷장 안이나 침대 밑에 숨는다"]
-
-show_Draw_timer =room_speed*5;
+answer=false
+show_Draw_timer =0;
+is_choice=false;

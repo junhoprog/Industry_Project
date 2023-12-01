@@ -5,10 +5,10 @@
 draw_set_color(c_white)
 draw_set_font(dotFont)
 
-
+global.score+=1;
 var _s_score =""
 _s_score += "Score:"
-_s_score += string(score)
+_s_score += string(global.score)
 
 var cam_x = camera_get_view_x(view_camera[0])
 var cam_y = camera_get_view_y(view_camera[0])

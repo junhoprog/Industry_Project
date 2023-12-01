@@ -20,7 +20,18 @@ if(show_Draw_timer>0)
 		draw_text(cam_x+230, cam_y+120, quizs[0])
 		show_Draw_timer--;
 	}
-	
+if(show_Draw_timer==0||(answer==false&&is_choice))
+{
+	//선택했는데 틀렸거나 또는 시간이 다 되었을 때
+	score-=2000;
+	is_choice=false;
+}
+if(is_choice&&answer==true)
+{
+	score+=2000;
+	is_choice=false;
+}
+
 if (chk_col==1) {
 	show_Draw_timer=room_speed*5;
 	

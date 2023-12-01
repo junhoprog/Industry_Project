@@ -89,13 +89,14 @@ y += vsp;
 		
 		if(global.hasFireExtinguisher==1&&meet_fire && mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, fire_id)){
 			instance_destroy(fire_id);
+			global.score+=1000;
 		}
 		
 		if(place_meeting(x,y,Obj_fire))
 		{
 			touch_fire=true;
 			if(touch_fire==true){
-				global.health--;	
+				global.health-=0.2;	
 			}//만나고있을때 한번뜨고 계속 감소하다가 멀어질 때 멀어졌다뜨고 감소중단
 		}
 		else{
@@ -118,13 +119,34 @@ for (var i = 0; i < array_length(global.smoke_emitters); i++) {
         y_end = global.smoke_areaY[i][1]; 
 
         // 플레이어가 연기 영역에 있는지 확인하고 건강 수치 감소
-        if (Obj_player.y >= y_start && Obj_player.y <= y_end) {
-            global.health--;  // 플레이어가 연기 영역에 있을 경우 건강 수치 감소
-        }
+        if (Obj_player.y >= y_start+50&& Obj_player.y <= y_end+50) {
+			if(!check_spr){
+				is_avoidF++;
+				//점수증가
+			}
+			else{
+				global.health-=0.2;  // 플레이어가 연기 영역에 있을 경우 건강 수치 감소
+			}
+		}
 	
     }
 }
 
+var currentRoom=room;
+var targetRoom=Stairs
+
+if(currentRoom == targetRoom)
+{
+	is_Stair++;
+}
+if(is_Stair==1)
+{
+	global.score+=10000;
+}
+if(is_avoidF==1)
+{
+	global.score+=10000;
+}
 elapsed_time = (current_time - global.start_time) / 1000;  // 게임 시작부터 경과한 시간 계산 (초 단위)
 
 if (elapsed_time <= 60 * 4) {  // 게임 플레이 시간 동안. 테스트 용도로 1분으로 기입

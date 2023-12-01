@@ -2,7 +2,7 @@ hsp=0;
 vsp=0;
 grv=0;
 grav_=1;
-walksp=4;
+walksp=10;
 
 touch_fire=false;
 cnt=0;
@@ -13,7 +13,8 @@ show_text_timer =room_speed*2;
 collision_alarm=room_speed;
 meet_fire=false;
 global.hasFireExtinguisher=0
-
+is_avoidF=0;
+is_Stair=0;
 
 
 global.start_time = current_time;
