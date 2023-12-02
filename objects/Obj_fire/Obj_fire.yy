@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_fire",
-  "eventList": [],
+  "name": "Obj_Fire",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_fire",
-    "path": "sprites/spr_fire/spr_fire.yy",
+    "name": "spr_Flame_3",
+    "path": "sprites/spr_Flame_3/spr_Flame_3.yy",
   },
   "spriteMaskId": null,
   "visible": true,
