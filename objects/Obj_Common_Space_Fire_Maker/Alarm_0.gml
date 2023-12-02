@@ -23,7 +23,7 @@ if global.commonspace_Isfire
 		}
 	}
 }
-alarm[0] = 300;
+alarm[0] = 150;
 
 
 

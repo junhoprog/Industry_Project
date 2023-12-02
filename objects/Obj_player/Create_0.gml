@@ -12,7 +12,7 @@ show_text = false; // 텍스트 표시 플래그를 활성화
 show_text_timer =room_speed*2;
 collision_alarm=room_speed;
 meet_fire=false;
-global.hasFireExtinguisher=0
+global.hasFireExtinguisher=0;
 is_avoidF=0;
 is_Stair=0;
 

@@ -1,0 +1,1 @@
+global.health -= 0.2;

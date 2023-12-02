@@ -83,30 +83,30 @@ if( place_meeting(x, y+vsp, Obj_flooring)){
 }
 y += vsp;
 	//
-	if(distance_to_object(Obj_fire) <= 50){
-		meet_fire=true;
-		var fire_id = instance_nearest(x,y,Obj_fire);
+	//if(distance_to_object(Obj_fire) <= 50){
+	//	meet_fire=true;
+	//	var fire_id = instance_nearest(x,y,Obj_fire);
 		
-		if(global.hasFireExtinguisher==1&&meet_fire && mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, fire_id)){
-			instance_destroy(fire_id);
-			global.score+=1000;
-		}
+	//	if(global.hasFireExtinguisher==1&&meet_fire && mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, fire_id)){
+	//		instance_destroy(fire_id);
+	//		global.score+=1000;
+	//	}
 		
-		if(place_meeting(x,y,Obj_fire))
-		{
-			touch_fire=true;
-			if(touch_fire==true){
-				global.health-=0.2;	
-			}//만나고있을때 한번뜨고 계속 감소하다가 멀어질 때 멀어졌다뜨고 감소중단
-		}
-		else{
-			touch_fire=false;
-		}
-	}
+	//	if(place_meeting(x,y,Obj_fire))
+	//	{
+	//		touch_fire=true;
+	//		if(touch_fire==true){
+	//			global.health-=0.2;	
+	//		}//만나고있을때 한번뜨고 계속 감소하다가 멀어질 때 멀어졌다뜨고 감소중단
+	//	}
+	//	else{
+	//		touch_fire=false;
+	//	}
+	//}
 
-	else{
-			meet_fire=false;
-		}
+	//else{
+	//		meet_fire=false;
+	//	}
 
 
 

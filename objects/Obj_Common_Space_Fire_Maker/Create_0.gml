@@ -6,6 +6,6 @@ if global.commonspace_Isfire = 1
 	}
 }
 
-alarm[0] = 300;
+alarm[0] =150;
 
 
