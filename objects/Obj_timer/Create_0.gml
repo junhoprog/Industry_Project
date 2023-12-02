@@ -7,3 +7,6 @@ t_mil = 0
 pause = 0
 
 alarm[0] = 6
+
+is_on=false;
+dialog_Timer=5*room_speed;

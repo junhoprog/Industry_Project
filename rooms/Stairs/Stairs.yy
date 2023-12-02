@@ -26,6 +26,7 @@
     {"name":"inst_31C71E88","path":"rooms/Stairs/Stairs.yy",},
     {"name":"inst_4CD971C8","path":"rooms/Stairs/Stairs.yy",},
     {"name":"inst_79AB5576","path":"rooms/Stairs/Stairs.yy",},
+    {"name":"inst_1A00AB1B","path":"rooms/Stairs/Stairs.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -61,6 +62,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F763A9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_flooring","path":"objects/Obj_flooring/Obj_flooring.yy",},"properties":[],"rotation":0.33571795,"scaleX":4.0,"scaleY":2.0,"x":448.0,"y":960.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_DB0ECCC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_flooring","path":"objects/Obj_flooring/Obj_flooring.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":2.0,"x":320.0,"y":1088.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_458532F7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_flooring","path":"objects/Obj_flooring/Obj_flooring.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":2.0,"x":768.0,"y":1920.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A00AB1B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_Final","path":"objects/Obj_Final/Obj_Final.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":3.0,"x":1280.0,"y":1920.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Stairs","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":34,"SerialiseWidth":20,"TileCompressedData":[
 -174,-2147483648,1,0,-5,2,-13,-2147483648,2,5,2,-5,0,-12,-2147483648,-2,0,-17,-2147483648,2,

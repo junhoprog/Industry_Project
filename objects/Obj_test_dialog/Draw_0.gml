@@ -26,11 +26,13 @@ if(show_Draw_timer==0||(answer==false&&is_choice))
 	score-=2000;
 	is_choice=false;
 }
+ 
 if(is_choice&&answer==true)
 {
 	score+=2000;
 	is_choice=false;
 }
+
 
 if (chk_col==1) {
 	show_Draw_timer=room_speed*5;

@@ -39,7 +39,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.8.0.98",
   },
   "resources": [
     {"id":{"name":"spr_smoke_3","path":"sprites/spr_smoke_3/spr_smoke_3.yy",},},
@@ -55,6 +55,7 @@
     {"id":{"name":"spr_impenetrable_wall","path":"sprites/spr_impenetrable_wall/spr_impenetrable_wall.yy",},},
     {"id":{"name":"Obj_Hallway_Fire_Maker","path":"objects/Obj_Hallway_Fire_Maker/Obj_Hallway_Fire_Maker.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
+    {"id":{"name":"Obj_Final","path":"objects/Obj_Final/Obj_Final.yy",},},
     {"id":{"name":"Counselingroom","path":"rooms/Counselingroom/Counselingroom.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"Obj_test_dialog","path":"objects/Obj_test_dialog/Obj_test_dialog.yy",},},

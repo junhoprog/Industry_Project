@@ -1,7 +1,7 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
-if (pause=0){
+if (pause=0&&global.isGameEnd==false){
 	t_mil -= 1
 
 	if t_mil = -1 {
@@ -19,7 +19,8 @@ if (pause=0){
 	} else
 	{
 		//여기에 게임 오버
-		game_end()
+		is_on=true;
+		global.isGameEnd=true;
 	}
 }
 else if (pause==1) {
