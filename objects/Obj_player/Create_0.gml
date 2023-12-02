@@ -19,3 +19,4 @@ is_Stair=0;
 global.isGameEnd=false;
 global.start_time = current_time;
 global.smoke_area_index = 0;
+global.index = 0;

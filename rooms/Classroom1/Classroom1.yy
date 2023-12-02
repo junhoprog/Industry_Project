@@ -15,6 +15,7 @@
     {"name":"inst_F803067","path":"rooms/Classroom1/Classroom1.yy",},
     {"name":"inst_241E8B62","path":"rooms/Classroom1/Classroom1.yy",},
     {"name":"inst_3DA560E9","path":"rooms/Classroom1/Classroom1.yy",},
+    {"name":"inst_BF49E76","path":"rooms/Classroom1/Classroom1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -22,6 +23,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F803067","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_particles_setup","path":"objects/Obj_particles_setup/Obj_particles_setup.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_241E8B62","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_particle_smoke","path":"objects/Obj_particle_smoke/Obj_particle_smoke.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3DA560E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_Classroom1_Fire_Maker","path":"objects/Obj_Classroom1_Fire_Maker/Obj_Classroom1_Fire_Maker.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_BF49E76","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_test_dialog","path":"objects/Obj_test_dialog/Obj_test_dialog.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":320.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_17075012_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"spriteId":{"name":"spr_clock","path":"sprites/spr_clock/spr_clock.yy",},"x":340.0,"y":195.0,},

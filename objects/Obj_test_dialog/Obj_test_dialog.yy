@@ -5,7 +5,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -30,12 +30,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_mark",
-    "path": "sprites/spr_mark/spr_mark.yy",
+    "name": "spr_mark_1",
+    "path": "sprites/spr_mark_1/spr_mark_1.yy",
   },
   "spriteMaskId": {
-    "name": "spr_glass_door",
-    "path": "sprites/spr_glass_door/spr_glass_door.yy",
+    "name": "spr_glass_door_1",
+    "path": "sprites/spr_glass_door_1/spr_glass_door_1.yy",
   },
   "visible": true,
 }
