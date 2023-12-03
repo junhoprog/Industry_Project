@@ -4,6 +4,7 @@ if(place_meeting(x,y,Obj_player))
 }
 if(is_col)
 {
+
 	global.isGameEnd=1;
 	var curX = camera_get_view_x(view_camera[0]);
 	var curY = camera_get_view_y(view_camera[0]);

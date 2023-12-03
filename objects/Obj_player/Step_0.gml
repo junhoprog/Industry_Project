@@ -94,14 +94,11 @@ for (var i = 0; i < array_length(global.smoke_emitters); i++) {
         y_end = global.smoke_areaY[i][1]; 
 
         // 플레이어가 연기 영역에 있는지 확인하고 건강 수치 감소
-        if (Obj_player.y-50 >= y_start && Obj_player.y<= y_end) {
-			if(!check_spr){
-				is_avoidF++;
-				//점수증가
-			}
-			else{
-				global.health-=0.2;  // 플레이어가 연기 영역에 있을 경우 건강 수치 감소
-			}
+        if (!(sprite_index = spr_dummy_sukrun or sprite_index = spr_dummy_sukrun ) && Obj_player.y >= y_start+70 && Obj_player.y<= y_end+70) {
+			global.health-=0.1;  // 플레이어가 연기 영역에 있을 경우 건강 수치 감소
+		}
+		 if (Obj_player.y >= y_start && Obj_player.y<= y_end) {
+			global.health-=0.1;  // 플레이어가 연기 영역에 있을 경우 건강 수치 감소
 		}
 	
     }
@@ -116,12 +113,12 @@ if(currentRoom == targetRoom)
 }
 if(is_Stair==1)
 {
-	global.score+=10000;
+	global.score+=1000;
 }
-if(is_avoidF==1)
-{
-	global.score+=10000;
-}
+//if(is_avoidF==1)
+//{
+//	global.score+=2000;
+//}
 elapsed_time = (current_time - global.start_time) / 1000;  // 게임 시작부터 경과한 시간 계산 (초 단위)
 
 if (elapsed_time <= 60 * 4) {  // 게임 플레이 시간 동안. 테스트 용도로 1분으로 기입

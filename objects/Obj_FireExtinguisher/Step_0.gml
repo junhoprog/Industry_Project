@@ -12,4 +12,4 @@ if(meet_player && mouse_check_button_pressed(mb_left) && position_meeting(mouse_
     instance_destroy();
 }
 if(isOwned)
-{global.score+=10000; isOwned=false;}
+{global.score+=1000; isOwned=false;}
