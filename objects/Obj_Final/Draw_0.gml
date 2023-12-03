@@ -9,6 +9,7 @@ if(is_col)
 	var curX = camera_get_view_x(view_camera[0]);
 	var curY = camera_get_view_y(view_camera[0]);
 	
+	
 	draw_set_font(dotFont)
 	var success_exit=""
 	success_exit+="탈출 성공!\n"
