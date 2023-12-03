@@ -94,7 +94,7 @@ for (var i = 0; i < array_length(global.smoke_emitters); i++) {
         y_end = global.smoke_areaY[i][1]; 
 
         // 플레이어가 연기 영역에 있는지 확인하고 건강 수치 감소
-        if (Obj_player.y >= y_start+50&& Obj_player.y <= y_end+50) {
+        if (Obj_player.y-50 >= y_start && Obj_player.y<= y_end) {
 			if(!check_spr){
 				is_avoidF++;
 				//점수증가

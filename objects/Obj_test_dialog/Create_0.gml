@@ -49,3 +49,6 @@ show_Draw_timer = 0;
 is_choice=false;
 
 is_done=false
+
+
+depth = -9999;

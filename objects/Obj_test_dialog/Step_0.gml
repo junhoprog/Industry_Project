@@ -8,7 +8,7 @@ if (show_Draw_timer){
 	if (fire_safety_OX[global.index]==false) {
 	if (((mouse_x > cam_x+500 && mouse_x < cam_x+600) && (mouse_y > cam_y+170 && mouse_y < cam_y+270)) && mouse_check_button_pressed(mb_left))
 			{
-				global.score -= 2000;
+				global.score -= 1000;
 				is_choice=1
 				show_Draw_timer = 0;
 				triggered = 1;
@@ -16,7 +16,7 @@ if (show_Draw_timer){
 			}
 			else if (((mouse_x > cam_x+650 && mouse_x < cam_x+750) && (mouse_y > cam_y+170 && mouse_y < cam_y+270)) && mouse_check_button_pressed(mb_left))
 			{
-				global.score += 2000;
+				global.score += 1000;
 				is_choice=1
 				show_Draw_timer = 0
 				triggered = 1;
@@ -26,7 +26,7 @@ if (show_Draw_timer){
 	else {
 		if (((mouse_x > cam_x+500 && mouse_x < cam_x+600) && (mouse_y > cam_y+170 && mouse_y < cam_y+270)) && mouse_check_button_pressed(mb_left))
 			{
-				global.score -= 2000;
+				global.score += 1000;
 				is_choice=1
 				show_Draw_timer = 0;
 				triggered = 1;
@@ -34,7 +34,7 @@ if (show_Draw_timer){
 			}
 			else if (((mouse_x > cam_x+650 && mouse_x < cam_x+750) && (mouse_y > cam_y+170 && mouse_y < cam_y+270)) && mouse_check_button_pressed(mb_left))
 			{
-				global.score += 2000;
+				global.score -= 1000;
 				is_choice=1
 				show_Draw_timer = 0
 				triggered = 1;
