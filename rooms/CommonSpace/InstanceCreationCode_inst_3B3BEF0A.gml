@@ -1,4 +1,4 @@
 targetRoom = Hallway;
-targetX = 6320;
+targetX = 6270;
 targetY = 560;
 playerView = -1;

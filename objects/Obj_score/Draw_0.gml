@@ -7,7 +7,7 @@ draw_set_font(dotFont)
 
 if(!global.isGameEnd)
 {
-	global.score-=0.1;
+	global.score-=1;
 }
 var _s_score =""
 _s_score += "Score:"

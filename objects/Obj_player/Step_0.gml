@@ -121,8 +121,8 @@ if(is_Stair==1)
 //}
 elapsed_time = (current_time - global.start_time) / 1000;  // 게임 시작부터 경과한 시간 계산 (초 단위)
 
-if (elapsed_time <= 60 * 4) {  // 게임 플레이 시간 동안. 테스트 용도로 1분으로 기입
-    global.smoke_area_index= floor(power(elapsed_time / (60 * 4), 2) * 12);  // x^2 함수에 따라 0부터 11까지 증가
+if (elapsed_time <= 60 * 3) {  // 게임 플레이 시간 동안. 테스트 용도로 1분으로 기입
+    global.smoke_area_index= floor(power(elapsed_time / (60 * 3), 2) * 12);  // x^2 함수에 따라 0부터 11까지 증가
 } else {
     global.smoke_area_index = 11;  // 5분 후에는 smoke_index를 11로 유지
 }

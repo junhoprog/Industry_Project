@@ -1,13 +1,8 @@
 draw_self()
 draw_set_font(dotFont)
-if(meet_player && mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id)){
-	
-	is_on=true
-	global.isGameEnd=1;
-	
-}
 if(global.isGameEnd)
 {
+	layer_force_draw_depth(true,-9999);
 	var curX = camera_get_view_x(view_camera[0]);
 	var curY = camera_get_view_y(view_camera[0]);
 	var success_exit=""
